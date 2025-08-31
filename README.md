@@ -18,5 +18,21 @@ https://puerts.github.io/docs/puerts/unity/other/community
 
 
 问题记录：
+0_Basic_Demo
 'tsc' 不是内部或外部命令，也不是可运行的程序 ———— npm install 安装项目依赖
 Cannot find namespace 'CS'. ———— Unity Tools->PureTS->Generate
+
+1_Start_Template
+Puer-Project 项目编译: npm install 安装项目依赖; date;npx tsc;date; 编译ts代码；
+	npx tsc --watch # 使用 tsc 直接编译
+
+
+NodeTSCAndHotReload.cs
+rotate.js/rotate.ts/rotate.mjs
+
+emitFileChanged
+replace('.js', '.mjs')
+
+Compile TsProj
+build-script\compile-and-move.js
+build-script\watch-and-hotreload.js
