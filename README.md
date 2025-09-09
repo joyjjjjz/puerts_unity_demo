@@ -36,3 +36,4 @@ replace('.js', '.mjs')
 Compile TsProj
 build-script\compile-and-move.js
 build-script\watch-and-hotreload.js
+需要node版本PuerTs
